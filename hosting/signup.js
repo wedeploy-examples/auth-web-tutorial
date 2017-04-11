@@ -1,3 +1,4 @@
+// Insert create user method bellow
 var auth = WeDeploy.auth('auth.tutorial-auth-web.wedeploy.me');
 
 function submitForm() {
@@ -18,3 +19,4 @@ function submitForm() {
 				});
 		})
 }
+// Insert create user method above

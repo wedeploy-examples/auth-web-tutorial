@@ -1,3 +1,4 @@
+// Insert sign in method bellow
 var auth = WeDeploy.auth('auth.tutorial-auth-web.wedeploy.me');
 
 function signInWithEmailAndPassword() {
@@ -15,3 +16,4 @@ function signInWithEmailAndPassword() {
 auth.onSignIn(function(user) {
 	location.href = '/welcome.html';
 });
+// Insert sign in method above
