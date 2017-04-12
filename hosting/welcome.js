@@ -1,5 +1,4 @@
-// Insert sign out method bellow
-var auth = WeDeploy.auth('auth.tutorial-auth-web.wedeploy.io');
+var auth = WeDeploy.auth('auth.tutorial-auth-web.wedeploy.me');
 
 if (auth.currentUser == null) {
   location.href = '/';
@@ -14,4 +13,3 @@ function out() {
       location.href = '/';
     });
 }
-// Insert sign out method above

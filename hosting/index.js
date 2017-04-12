@@ -1,10 +1,8 @@
-// Insert sign in method bellow
-var auth = WeDeploy.auth('auth.tutorial-auth-web.wedeploy.io');
+var auth = WeDeploy.auth('auth.tutorial-auth-web.wedeploy.me');
 
 function signInWithEmailAndPassword() {
 	auth.signInWithEmailAndPassword(signIn.email.value, signIn.password.value)
 	.then(function() {
-		alert('Sign-in successfully.');
 		signIn.reset();
 	})
 	.catch(function() {
@@ -13,7 +11,8 @@ function signInWithEmailAndPassword() {
 	});
 }
 
-auth.onSignIn(function(user) {
+auth.onSignIn(function() {
 	location.href = '/welcome.html';
 });
-// Insert sign in method above
+
+if (auth.currentUser) {document.location.href = '/welcome.html';}
