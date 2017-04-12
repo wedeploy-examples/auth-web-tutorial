@@ -1,5 +1,5 @@
 // Insert create user method bellow
-var auth = WeDeploy.auth('auth.tutorial-auth-web.wedeploy.me');
+var auth = WeDeploy.auth('auth.tutorial-auth-web.wedeploy.io');
 
 function submitForm() {
 	auth.createUser({
@@ -19,9 +19,9 @@ function submitForm() {
 }
 // Insert create user method above
 
+// Insert sign-in method bellow
 function signIn() {
 	auth.signInWithEmailAndPassword(signUp.email.value, signUp.password.value)
-	
 	.then(function() {
 		document.location.href = '/welcome.html';
 	})
@@ -29,5 +29,6 @@ function signIn() {
 		alert('Sign-in failed. Try another email/password.');
 	});
 }
+// Insert sign-in method above
 
 if (auth.currentUser) {document.location.href = '/welcome.html';}

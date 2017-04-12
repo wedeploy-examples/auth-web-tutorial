@@ -1,4 +1,4 @@
-var auth = WeDeploy.auth('auth.tutorial-auth-web.wedeploy.me');
+var auth = WeDeploy.auth('auth.tutorial-auth-web.wedeploy.io');
 
 if (auth.currentUser == null) {
   location.href = '/';
