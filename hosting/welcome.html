@@ -21,6 +21,7 @@
 	<script src="http://cdn.wedeploy.com/api/latest/wedeploy.js"></script>
 	<!-- Insert API Client link above -->
 	
-	<script src="welcome.js"></script>
+	<script src="main.js"></script>
+	<script>if (auth.currentUser == null) {location.href = '/';}</script>
 </body>
 </html>

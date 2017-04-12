@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
-	<form name="signIn" class="container" onsubmit="signInWithEmailAndPassword(); return false;">
+	<form name="user" class="container" onsubmit="signIn(); return false;">
 		<h1>Sign In</h1>
 		<input name="email" type="email" placeholder="Email" required>
 		<input name="password" type="password" placeholder="Password" required>
@@ -22,6 +22,7 @@
 	<script src="http://cdn.wedeploy.com/api/latest/wedeploy.js"></script>
 	<!-- Insert API Client link above -->
 
-	<script src="index.js"></script>
+	<script src="main.js"></script>
+	<script>if (auth.currentUser) {document.location.href = '/welcome.html';}</script>
 </body>
 </html>
