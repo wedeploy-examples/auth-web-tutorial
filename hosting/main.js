@@ -35,7 +35,7 @@ function signIn() {
 
 // Insert current user selector bellow
 document.querySelector('.username').innerHTML = auth.currentUser.name;
-// Insert current user selector bellow
+// Insert current user selector above
 
 
 function out() {
