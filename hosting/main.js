@@ -1,14 +1,14 @@
-// Insert create user method bellow
+// Insert create user method below
 
 // Insert create user method above
 
 
-// Insert sign-in method bellow
+// Insert sign-in method below
 
 // Insert sign-in method above
 
 
-// Insert current user selector bellow
+// Insert current user selector below
 
 // Insert current user selector above
 
