@@ -1,5 +1,5 @@
-# WeDeploy Auth On The Web Tutorial
+# WeDeploy Auth on the Web Tutorial
 
-This template will help you through the process of deploying a WeDeploy Auth container.
+This template will help you through the process of deploying an Auth project on the web.
 
-> [Visit the tutorials to learn how to start authenticating users.](https://wedeploy.com/tutorials/auth-web/)
+> [Visit the tutorial to learn how to start using the WeDeploy Auth service on the web.](https://wedeploy.com/tutorials/auth-web/)
